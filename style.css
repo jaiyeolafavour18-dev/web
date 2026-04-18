@@ -309,3 +309,20 @@ footer{
     color: #FFFFFF;
     margin-top: 20px;
 }
+
+
+/*charcoal page*/
+/*section1*/
+#coal-section1{
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    height: 600px;
+    padding: 10px;
+}
+
+#coal-section1 img{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+
