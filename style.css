@@ -348,30 +348,32 @@ footer{
     }
 
     #Hero-section{
-        width: 100%;
+        width: 100%vw;
         margin: 10px;
     }
     .slider-viewport{
-        width: 768px;
+        width: 100%vw;
         margin: 10px;
     }
 
     #section2, #section3{
-        width: 100%;
+        width: 100%vw;
     }
     .sec2{
         flex-direction: column;
-        width: 100%;
+        width: 100%vw;
         margin: 10px auto;
 ;
     }
     #testimonials{
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     .testimonial-card{
         width: 100%;
         margin: 10px auto;
+        align-items: center;
     }
     footer{
         width: 100%;
