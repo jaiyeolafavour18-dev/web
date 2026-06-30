@@ -358,23 +358,23 @@ footer{
 
     #section2, #section3{
         width: 100%vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .sec2{
-        flex-direction: column;
+    
         width: 100%vw;
         margin: 10px auto;
 ;
     }
     #testimonials{
         flex-direction: column;
-        justify-content: center;
         width: 100%;
-        align-items: center;
     }
     .testimonial-card{
         width: 100%;
         margin: 10px auto;
-        align-items: center;
     }
     footer{
         width: 100%;
