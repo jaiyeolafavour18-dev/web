@@ -18,6 +18,13 @@ body{
     padding-bottom: 60px;
 }
 
+@media( max-width: 600px){
+    #Hero-section{
+        width: 600px;
+        height: 400px;
+    }
+}
+
 #Hero-section h1{
     font-size: 80px;
     font-weight: 900;
@@ -313,7 +320,7 @@ footer{
 /* Tablet*/
 @media (max-width: 1024px) {
     #testimonials{
-        
+
     }
 }
 
