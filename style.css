@@ -325,8 +325,11 @@ footer{
 */
 
 /* Phones*/
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     
+    #nav-bar{
+        display: none;
+    }
     #Hero-section{
         width: 100%;
         margin-left: 0px;
