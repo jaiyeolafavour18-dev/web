@@ -1,9 +1,10 @@
 let currentIndex = 0;
+
 const toggleBtn = document.querySelector('.toggle-btn');
 const navbar = document.querySelector('#navbar');
 
 toggleBtn.addEventListener('click', () => {
-  sidebar.classList.toggle('active');
+  navbar.classList.toggle('active');
 });
 
 function moveSlide(direction) {
