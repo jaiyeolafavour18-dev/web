@@ -333,20 +333,19 @@ footer{
     }
     .slider-viewport{
         width: 100%;
-        margin-left: 0px;
     }
 
     #section2, #section3{
         width: 100%;
+        margin-left: 0px;
     }
     .sec2{
         flex-direction: column;
         width: 100%;
-        margin-left: 0px;
+;
     }
     #testimonials{
         flex-direction: column;
-        margin-left: 0px;
         width: 100%;
     }
     .testimonial-card{
@@ -354,6 +353,7 @@ footer{
     }
     footer{
         width: 100%;
+        margin-left: 0px;
     }
 }
 
