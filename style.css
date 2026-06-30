@@ -18,10 +18,10 @@ body{
     padding-bottom: 60px;
 }
 
-@media( max-width: 600px, min-width: 300px){
+@media( max-width: 600px){
     #Hero-section{
-        width: 600px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
     }
 }
 
