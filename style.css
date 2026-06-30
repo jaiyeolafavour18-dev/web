@@ -329,16 +329,20 @@ footer{
     
     #Hero-section{
         width: 300px;
+        margin-left: 0px;
     }
     #slider-wrapper{
         width: 300px;
+        margin-left: 0px;
     }
     .sec2{
         flex-direction: column;
         width: 300px;
+        margin-left: 0px;
     }
     #testimonials{
         flex-direction: column;
+        margin-left: 0px;
     }
 }
 
