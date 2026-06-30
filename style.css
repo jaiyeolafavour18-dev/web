@@ -310,7 +310,19 @@ footer{
 }
 
 
+/* Tablet*/
+@media (max-width: 1024px) {
+    #testimonials{
+        
+    }
+}
 
+/* Phones*/
+@media (max-width: 600px) {
+    #testimonials{
+        flex-direction: column;
+    }
+}
 
 
 
