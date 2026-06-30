@@ -331,17 +331,19 @@ footer{
     .toggle-btn {
         display: block; 
         position: fixed;
+        width: 70px;
+        height: 50px;
         top: 10px;
         left: 10px;
         z-index: 1000; /* Keeps button above the sidebar */
     }
 
-    .sidebar {
+    #nav-bar {
         transform: translateX(-100%); 
         z-index: 999;
     }
 
-    .sidebar.active {
+    #nav-bar.active {
         transform: translateX(0);
     }
 
@@ -373,7 +375,6 @@ footer{
     }
     footer{
         width: 100%;
-        margin-left: 0px;
     }
 }
 
