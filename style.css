@@ -335,6 +335,10 @@ footer{
         width: 100%;
         margin-left: 0px;
     }
+
+    #section2, #section3{
+        width: 100%;
+    }
     .sec2{
         flex-direction: column;
         width: 100%;
@@ -343,6 +347,12 @@ footer{
     #testimonials{
         flex-direction: column;
         margin-left: 0px;
+        width: 100%;
+    }
+    .testimonial-card{
+        width: 250px;
+    }
+    footer{
         width: 100%;
     }
 }
