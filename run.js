@@ -1,9 +1,16 @@
 let currentIndex = 0;
+const toggleBtn = document.querySelector('.toggle-btn');
+const navbar = document.querySelector('#navbar');
+
+toggleBtn.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+});
 
 function moveSlide(direction) {
     const wrapper = document.getElementById('slider-wrapper');
     const slides = document.querySelectorAll('.slide');
     const totalSlides = slides.length;
+
 
     // 1. Update the index
     currentIndex = (currentIndex + direction + totalSlides) % totalSlides;

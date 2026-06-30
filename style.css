@@ -60,11 +60,9 @@ body{
     width: 250px;
     position: fixed;
     color: #ffffff;
+    transition: transform 0.3s ease;
 }
 
-@media (max-width){
-
-}
 
 #nav-bar img{
     width: 150px;
@@ -110,6 +108,9 @@ body{
     color: rgb(103, 105, 105);
 }
 
+.toggle-btn {
+  display: none;
+}
 
 /*front-page 1st section*/
 .Front-page{
@@ -327,9 +328,23 @@ footer{
 /* Phones*/
 @media (max-width: 768px) {
     
-    #nav-bar{
-        display: none;
+    .toggle-btn {
+        display: block; 
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1000; /* Keeps button above the sidebar */
     }
+
+    .sidebar {
+        transform: translateX(-100%); 
+        z-index: 999;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
     #Hero-section{
         width: 100%;
         margin-left: 0px;
