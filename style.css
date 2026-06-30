@@ -297,7 +297,6 @@ body{
     width: 27%;
 }
 
-
 /*footer*/
 footer{
     height: 80px;
@@ -311,7 +310,11 @@ footer{
 }
 
 
-/*charcoal page*/
+
+
+
+
+                                                        /*CHARCOAL PAGE*/
 /*section1*/
 #coal-section1{
     width: calc(100% - 250px);
