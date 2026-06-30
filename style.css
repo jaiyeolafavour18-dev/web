@@ -68,7 +68,9 @@ body{
     color: #ffffff;
 }
 
-
+@media (max-width){
+    
+}
 
 #nav-bar img{
     width: 150px;
