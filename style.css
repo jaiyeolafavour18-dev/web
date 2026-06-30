@@ -358,11 +358,11 @@ footer{
 
     #section2, #section3{
         width: 100%;
-        margin-left: 0px;
     }
     .sec2{
         flex-direction: column;
         width: 100%;
+        align-items: center
 ;
     }
     #testimonials{
