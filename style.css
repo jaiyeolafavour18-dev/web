@@ -384,6 +384,12 @@ footer{
         margin: 10px auto;
     }
 
+    .slide{
+        padding: 20px 10px;
+        height: 350px;
+        width: 100%;
+    }
+
     .text-half h2{
         font-size: 30px;
         text-align: center;
