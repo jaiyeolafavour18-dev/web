@@ -386,7 +386,10 @@ footer{
         flex-direction: column;
         width: 100%;
         margin: 10px auto;
-;
+    }
+
+    #intro1, #intro2, #intro3, #intro4{
+        width: 100%;
     }
     #testimonials{
         flex-direction: column;
