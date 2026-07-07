@@ -418,6 +418,10 @@ footer{
         margin: 10px auto;
     }
 
+
+    #section3{
+        padding: 5px;
+    }
     #testimonials{
         flex-direction: column;
         width: 100%;
