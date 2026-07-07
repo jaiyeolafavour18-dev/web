@@ -368,11 +368,11 @@ footer{
 
     #Hero-section{
         width: 100%;
-        margin: 10px;
+        margin: 0px;
     }
     .slider-viewport{
         width: 100%;
-        margin: 10px;
+        margin: 10px auto;
     }
 
     #section2, #section3{
@@ -385,11 +385,11 @@ footer{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 10px auto;
     }
 
     #intro1, #intro2, #intro3, #intro4{
         width: 100%;
+        margin: 10px auto;
     }
     #testimonials{
         flex-direction: column;
