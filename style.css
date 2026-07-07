@@ -367,16 +367,16 @@ footer{
     }
 
     #Hero-section{
-        width: 100%vw;
+        width: 100%;
         margin: 10px;
     }
     .slider-viewport{
-        width: 100%vw;
+        width: 100%;
         margin: 10px;
     }
 
     #section2, #section3{
-        width: 100%vw;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -384,7 +384,7 @@ footer{
     .sec2{
         display: flex;
         flex-direction: column;
-        width: 100%vw;
+        width: 100%;
         margin: 10px auto;
 ;
     }
