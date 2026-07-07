@@ -368,6 +368,7 @@ footer{
 
 
     #Hero-section{
+        height: 400px;
         width: 100%;
         margin: 0px;
     }
@@ -377,8 +378,12 @@ footer{
     #Hero-section p{
         font-size: 15px;
     }
-
-
+    #Hero-btn{
+        margin-top: 30px;
+        padding: 13px 18px;
+        font-weight: 600;
+        font-size: 18px;
+    }
     .slider-viewport{
         width: 100%;
         margin: 10px auto;
