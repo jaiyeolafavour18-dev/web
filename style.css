@@ -387,10 +387,25 @@ footer{
         width: 100%;
     }
 
-    #intro1, #intro2, #intro3, #intro4{
+    #intro1{
         width: 100%;
         margin: 10px auto;
     }
+
+    #intro2{
+        width: 100%;
+        margin: 10px auto;
+    }
+    #intro3{
+        width: 100%;
+        height: 350px;
+        margin: 10px auto;
+    }
+    #intro4{
+        width: 100%;
+        margin: 10px auto;
+    }
+
     #testimonials{
         flex-direction: column;
         width: 100%;
