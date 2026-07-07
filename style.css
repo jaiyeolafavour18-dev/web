@@ -31,6 +31,7 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: black;
+    text-shadow: #f7c00c 2px 2px 2px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -377,6 +378,7 @@ footer{
     }
     #Hero-section p{
         font-size: 15px;
+        text-shadow: #f7c00c 2px 2px 2px;
     }
     #Hero-btn{
         margin-top: 30px;
