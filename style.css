@@ -22,7 +22,7 @@ body{
 #Hero-section h1{
     font-size: 80px;
     font-weight: 900;
-    color: rgba(255, 183, 2, 0.801);
+    color: darkgoldenrod;
     margin-bottom: 30px;
     text-shadow: #050202 2px 2px 2px;
 }
@@ -378,6 +378,8 @@ footer{
     }
     #Hero-section p{
         font-size: 15px;
+        color: black;
+        text-shadow: #f7c00c 2px 2px 2px;
     }
     #Hero-btn{
         margin-top: 30px;
