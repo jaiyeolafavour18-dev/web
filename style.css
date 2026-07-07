@@ -380,6 +380,7 @@ footer{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        background-color: #333333;
     }
     .sec2{
         display: flex;
@@ -389,6 +390,7 @@ footer{
 
     #intro1{
         width: 100%;
+        height: 330px;
         margin: 10px auto;
     }
 
@@ -403,7 +405,7 @@ footer{
     }
     #intro4{
         width: 100%;
-        height: 370px;
+        height: 350px;
         margin: 10px auto;
     }
 
