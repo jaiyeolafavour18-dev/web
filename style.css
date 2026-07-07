@@ -389,7 +389,7 @@ footer{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        background-color: #333333;
+     
     }
     .sec2{
         display: flex;
@@ -420,7 +420,7 @@ footer{
 
 
     #section3{
-        padding: 10px;
+        
     }
     #testimonials{
         flex-direction: column;
