@@ -381,11 +381,7 @@ footer{
         justify-content: center;
         flex-direction: column;
     }
-    .sec2{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+ 
 
     #intro1, #intro2, #intro3, #intro4{
         width: 100%;
