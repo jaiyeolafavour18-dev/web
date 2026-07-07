@@ -372,16 +372,28 @@ footer{
         margin: 0px;
     }
     #Hero-section h1{
-        font-size: 40px;
+        font-size: 50px;
     }
     #Hero-section {
-        font-size: 15px;
+        font-size: 10px;
     }
 
 
     .slider-viewport{
         width: 100%;
         margin: 10px auto;
+    }
+
+    .text-half h2{
+        font-size: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .text-half p{
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
     }
 
     #section2, #section3{
@@ -419,9 +431,7 @@ footer{
     }
 
 
-    #section3{
-        
-    }
+
     #testimonials{
         flex-direction: column;
         width: 100%;
